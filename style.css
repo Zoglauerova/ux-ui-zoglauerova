@@ -83,6 +83,7 @@ h6 {
   width: 45%;
   padding-left: 70px;
   margin-top: 0px;
+  text-align: left;
 }
 
 .divider {
@@ -200,6 +201,10 @@ video {
   min-height: 100vh;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 .contact-container {
@@ -236,7 +241,6 @@ video {
     height: auto;
     padding: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 
@@ -244,7 +248,6 @@ video {
     width: 50%;
     height: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 
