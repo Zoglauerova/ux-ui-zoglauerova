@@ -244,7 +244,7 @@ video {
   h6,
   p,
   a {
-    font-size: clamp(2vw, 2.5vw, 3vw);
+    font-size: clamp(2.5vw, 3vw, 4vw);
   }
 
   h2 {
@@ -276,6 +276,7 @@ video {
     display: flex;
     flex-direction: column;
     align-items: left;
+    font-size: 1.5vw;
   }
 
   .right.fixed {
