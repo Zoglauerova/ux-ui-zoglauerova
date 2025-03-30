@@ -292,7 +292,7 @@ video {
     align-items: flex-start;
     margin-left: 0;
     font-size: clamp(1vw, 3vw);
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .divider {
