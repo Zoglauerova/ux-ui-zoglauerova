@@ -291,15 +291,8 @@ video {
     flex-direction: row;
     align-items: flex-start;
     margin-left: 0;
+    font-size: clamp(1vw, 4vw);
     justify-content: space-evenly;
-  }
-
-  .nav-item {
-    font-size: clamp(2vw, 3vw, 4vw);
-  }
-
-  .nav-item.active {
-    font-size: clamp(3vw, 4vw, 5vw);
   }
 
   .divider {
