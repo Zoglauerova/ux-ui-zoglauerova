@@ -38,7 +38,7 @@ h4 {
 h5,
 a {
   color: #3e3a4b;
-  text-align: flex start;
+  text-align: start;
   font-size: 2.8rem;
   line-height: 1.5rem;
   text-decoration: none;
@@ -65,7 +65,7 @@ h6 {
 
 .right {
   width: 45%;
-  align-items: right;
+  align-items: flex-end;
   position: absolute;
   right: 64px;
   transition: all 0.5s ease-in-out;
@@ -231,75 +231,123 @@ video {
 
 @media screen and (max-width: 1024px) {
   body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
   }
-  .main-content {
-    background: linear-gradient(to bottom, #e9d8fd, #c2e9fb, #6c9bf5);
-    min-height: 100%;
-    min-width: 100%;
+
+  h1,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    font-size: clamp(0.5vw, 1vw, 2vw);
   }
-  .app {
-    padding: 0;
-    width: 40%;
-    height: auto;
+
+  h2 {
+    text-align: right;
+    margin-right: -22vh;
+    padding: -10vh;
+  }
+  h1,
+  p {
+    text-align: left;
+    margin-left: -8vh;
+    padding: -10vh;
+    font-size: 0.2vw;
+  }
+
+  .text-duo {
+    width: 100%;
+    height: 60px;
+    margin: 0vw;
+    padding: 0vw;
+    margin-top: 0vw;
+    padding-top: 0vw;
+  }
+
+  .right h2 {
+    font-size: 0.1vw;
+    text-align: right;
+    margin-right: -24vh;
+    padding: -15vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: left;
+  }
+
+  .right.fixed {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 0.1vw;
+    justify-content: space-evenly;
+  }
+
+  .divider {
+    width: 0.5vh;
+    margin-top: 5vh;
+    height: 50vh;
+    position: absolute;
     align-items: center;
+  }
+
+  .main-content {
+    background: linear-gradient(to bottom, #e9d8fd, #c2e9fb, #6c9bf5);
+    min-height: 400vh;
+    position: relative;
+    width: 100%;
+    height: 320vh;
+  }
+
+  .section2 {
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px;
   }
 
   .shop {
+    width: 70vw;
     padding: 0;
-    width: 50%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
   }
   .car {
-    width: 60%;
+    width: 60vw;
     height: auto;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
   }
 
-  video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    width: 90vw;
-  }
   .video-container {
     flex-direction: column;
     align-items: center;
   }
-
-  .text-duo,
-  .section3,
-  .section1,
-  .section2,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p,
-  a {
-    font-size: 1rem;
-    line-height: 1.4;
-    text-align: left;
-    padding: 10px;
+  .section3 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 0;
+    margin-top: 0;
   }
-
   .img1,
   .img2,
   .img3 {
