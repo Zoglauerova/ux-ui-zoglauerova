@@ -244,7 +244,7 @@ video {
   h6,
   p,
   a {
-    font-size: clamp(0.5vw, 1vw, 2vw);
+    font-size: clamp(2vw, 2.5vw, 3vw);
   }
 
   h2 {
@@ -257,7 +257,7 @@ video {
     text-align: left;
     margin-left: -8vh;
     padding: -10vh;
-    font-size: 0.2vw;
+    font-size: 2vw;
   }
 
   .text-duo {
@@ -270,7 +270,6 @@ video {
   }
 
   .right h2 {
-    font-size: 0.1vw;
     text-align: right;
     margin-right: -24vh;
     padding: -15vh;
@@ -285,7 +284,7 @@ video {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    font-size: 0.1vw;
+
     justify-content: space-evenly;
   }
 
