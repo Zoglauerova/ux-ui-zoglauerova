@@ -271,8 +271,6 @@ video {
 
   .right h2 {
     text-align: right;
-    margin-right: -24vh;
-    padding: -15vh;
     display: flex;
     flex-direction: column;
     align-items: left;
