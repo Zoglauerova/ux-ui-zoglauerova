@@ -282,7 +282,7 @@ video {
     height: 15vh;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: flex-end;
     font-size: clamp(2.5vw, 4vw);
     justify-content: space-evenly;
   }
