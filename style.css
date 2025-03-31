@@ -300,10 +300,10 @@ video {
     height: 25vh;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+
     margin: 0;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .divider {
     width: 0.5vh;
