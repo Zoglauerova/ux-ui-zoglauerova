@@ -301,7 +301,7 @@ video {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .divider {
     width: 0.5vh;
