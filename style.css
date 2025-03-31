@@ -298,8 +298,12 @@ video {
   nav {
     width: 100vw;
     height: 25vh;
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
   }
   .divider {
     width: 0.5vh;
