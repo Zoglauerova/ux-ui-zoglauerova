@@ -295,7 +295,10 @@ video {
     font-size: clamp(1vw, 3vw);
     justify-content: space-evenly;
   }
-
+  nav {
+    width: 100vw;
+    height: 25vh;
+  }
   .divider {
     width: 0.5vh;
     margin-top: 5vh;
