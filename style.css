@@ -247,11 +247,11 @@ video {
     font-size: clamp(3.5vw, 4vw, 5vw);
   }
 
-  h2 {
+  /*h2 {
     text-align: right;
     margin-right: 0;
     padding: 0;
-  }
+  }*/
   h1,
   p {
     text-align: left;
