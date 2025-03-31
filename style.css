@@ -250,7 +250,8 @@ video {
   h2 {
     text-align: right;
     justify-content: space-evenly;
-    padding-right: 2vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
   }
   h1,
   p {
